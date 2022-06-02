@@ -44,6 +44,9 @@ export default function Home() {
     .replace(/dejen/g, 'degen')
     .replace(/dis/g, 'this')
     .replace(/dis/g, 'bootifel')
+    .replace(/rememba/g, 'remember')
+    .replace(/sum/g, 'some')
+    .replace(/waterr/g, 'water')
     
     
     return toenglish;
