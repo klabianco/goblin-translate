@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -106,6 +106,14 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.translatethis{
+  display: flex;
+  width: 400px;
+  max-width: 100%;
+  
+  flex-direction: column;
 }
 
 @media (max-width: 600px) {
