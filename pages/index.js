@@ -44,6 +44,7 @@ export default function Home() {
   function editText(event){
     let text = translateText(event.target.value);
 
+
     document.getElementById('content').innerHTML = text;
   }
 
@@ -63,6 +64,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
+          just copy and paste into here:
         <textArea
           name="textValue"
           onChange={editText}
