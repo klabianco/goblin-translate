@@ -41,6 +41,8 @@ export default function Home() {
     .replace(/wekm/g, 'welcome')
     .replace(/ta/g, 'to')
     .replace(/dejen/g, 'degen')
+    .replace(/dis/g, 'this')
+    .replace(/dis/g, 'bootifel')
     
     
     return toenglish;
