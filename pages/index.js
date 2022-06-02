@@ -14,6 +14,7 @@ export default function Home() {
     .replace(/[\u1D63]/g, 'r')
     .replace(/[\u1D62]/g, 'i')
     .replace(/[\u1D64]/g, 'u')
+    .replace(/[\u2096]/g, 'k')
     .replace(/[\u209A]/g, 'p')
     .replace(/[\u209C]/g, 't')
     .replace(/[\u2095]/g, 'h')
