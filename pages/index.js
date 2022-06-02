@@ -36,6 +36,11 @@ export default function Home() {
     .replace(/onlee/g, 'official')
     .replace(/fry thee/g, 'friday')
     .replace(/nite/g, 'night')
+    .replace(/eenstagrum/g, 'instagram')
+    .replace(/descurd/g, 'discord')
+    .replace(/wekm/g, 'welcome')
+    .replace(/ta/g, 'to')
+    .replace(/dejen/g, 'degen')
     
     
     return toenglish;
