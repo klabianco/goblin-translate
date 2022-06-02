@@ -22,6 +22,20 @@ export default function Home() {
     .replace(/[\u2098]/g, 'm')
     .replace(/[\u2097]/g, 'l')
     .replace(/[\u2099]/g, 'n')
+    .replace(/[\u1D52]/g, 'o')
+    .replace(/[\u1D49]/g, 'e')
+    .replace(/[\u1D58]/g, 'u')
+    .replace(/[\u1D56]/g, 'p')
+    .replace(/[\u1D50]/g, 'm')
+    .replace(/[\u2089]/g, 'g')
+    .replace(/[\u1D5B]/g, 'v')
+    .replace(/[\u1DA0]/g, 'f')
+    .replace(/[\u1D47]/g, 'b')
+    .replace(/[\u207F]/g, 'n')
+    .replace(/[\u1D57]/g, 't')
+
+    
+
 
     ;
     const toenglish = parsed.normalize("NFD")
@@ -47,6 +61,16 @@ export default function Home() {
     .replace(/rememba/g, 'remember')
     .replace(/sum/g, 'some')
     .replace(/waterr/g, 'water')
+    .replace(/maee/g, 'my')
+    .replace(/menn/g, 'man')
+    .replace(/hooookeedi/g, 'hooked')
+    .replace(/uupp/g, 'up')
+    .replace(/wif/g, 'with')
+    .replace(/ᑯis/g, 'this')
+    .replace(/gjeiv/g, 'gif')
+    .replace(/gobeeleyen/g, 'goblin')
+    .replace(/tokk/g, 'take')
+    .replace(/ordrr/g, 'order')
     
     
     return toenglish;
@@ -71,7 +95,6 @@ export default function Home() {
         <h1 className={styles.title}>
         Gₒbₗᵢₙ ₜₒ ₑₙgₗᵢₛₕ ₜᵣₐₙₛₗₐₜₒᵣ<br />
           {pageTitle}
-          <br />
         </h1>
 
         <p className={styles.description}>
