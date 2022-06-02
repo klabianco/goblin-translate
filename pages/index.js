@@ -80,9 +80,6 @@ export default function Home() {
     .replace(/buseenis/g, 'business')
     .replace(/profeshunel/g, 'professional')
     
-    
-    
-    
     return toenglish;
   }
 
@@ -105,8 +102,6 @@ export default function Home() {
         <h1 className={styles.title}>
         Gₒbₗᵢₙ ₜₒ ₑₙgₗᵢₛₕ ₜᵣₐₙₛₗₐₜₒᵣ<br />
           {pageTitle}
-          <br/>
-          ₕₑaₕ wₐₜ dₒ dₐ ₛₑᵣᵢᵤₛ ₑₙᵥₑₛₜᵤᵣₛ dₒ fᵤᵣ wᵤᵣₖ?
         </h1>
 
         <p className={styles.description}>
