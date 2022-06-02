@@ -33,6 +33,7 @@ export default function Home() {
     .replace(/[\u1D47]/g, 'b')
     .replace(/[\u207F]/g, 'n')
     .replace(/[\u1D57]/g, 't')
+    .replace(/[\u1D65]/g, 'v')
 
     
 
@@ -73,6 +74,13 @@ export default function Home() {
     .replace(/ fridae/g, ' friday')
     .replace(/fridae /g, 'friday ')
     .replace(/ fry dae/g, ' friday')
+    .replace(/envesturs/g, ' investors')
+    .replace(/serius/g, ' serious')
+    .replace(/do fur/g, 'do for')
+    .replace(/buseenis/g, 'business')
+    .replace(/profeshunel/g, 'professional')
+    
+    
     
     
     return toenglish;
@@ -97,6 +105,8 @@ export default function Home() {
         <h1 className={styles.title}>
         Gₒbₗᵢₙ ₜₒ ₑₙgₗᵢₛₕ ₜᵣₐₙₛₗₐₜₒᵣ<br />
           {pageTitle}
+          <br/>
+          ₕₑaₕ wₐₜ dₒ dₐ ₛₑᵣᵢᵤₛ ₑₙᵥₑₛₜᵤᵣₛ dₒ fᵤᵣ wᵤᵣₖ?
         </h1>
 
         <p className={styles.description}>
